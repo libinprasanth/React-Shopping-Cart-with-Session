@@ -23,7 +23,7 @@ class Product extends Component{
       <React.Fragment>
         <div className="product-box ">
           <div className="product-image">
-            <div className="imageInner" style={{backgroundImage: `url(${this.state.image})`}}></div>
+            <div className="imageInner" style={{backgroundImage: `url(${this.state.img})`}}></div>
           </div>
           <h6>Category: {this.state.type}</h6>
           <h5>{this.state.name}</h5>
