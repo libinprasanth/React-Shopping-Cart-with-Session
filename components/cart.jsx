@@ -46,8 +46,8 @@ class Cart extends Component {
     if (cartItems.length) {
       let content = cartItems.map(item => {
         return (
-          <tr>
-            <th scope="row" className="border-0" key={item.id}>
+          <tr key={item.id}>
+            <th scope="row" className="border-0">
               <div className="media">
                 <div className="media-icon">
                   <div className="product-image">
