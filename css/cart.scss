@@ -1,0 +1,33 @@
+@import 'base';
+.cart-wrp{ 
+  th{
+    font-size: 12px;
+  }
+  padding: 40px 0; 
+  .media-body {
+    h5{
+      font-size: 15px;
+    } 
+    span{
+      font-size: 12px;
+    }
+  } 
+  .remove-cart{
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .product-image{
+    position: relative;
+    height: 40px;
+    width: 40px; 
+    margin-right: 10px;
+    .imageInner{ 
+      width: calc(100% - 4px);
+      height: calc(100% - 4px);
+      margin: 2px;
+      background-color: #ccc;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import 'base';
+header{
+  border-bottom: 1px solid $border-color;
+  .navbar-brand{
+    padding: 0 30px;
+  }
+} 
+header .navbar ul.navbar-nav{ 
+  a.nav-link{
+    padding: 15px 30px;
+    border-left: 1px solid $border-color;
+    transition: .5s;
+    &.active{
+      background: $primary-color;
+      color: #fff;
+      border-color: $primary-color;
+    }
+  }
+}
